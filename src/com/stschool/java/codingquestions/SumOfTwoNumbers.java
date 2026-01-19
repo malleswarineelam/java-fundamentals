@@ -1,6 +1,7 @@
 package com.stschool.java.codingquestions;
-public class HelloWorld {
+
+public class SumOfTwoNumbers {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.print(2+2);
     }
 }
