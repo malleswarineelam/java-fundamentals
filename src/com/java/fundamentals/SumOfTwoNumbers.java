@@ -1,4 +1,4 @@
-package com.stschool.java.codingquestions;
+package com.java.fundamentals;
 
 public class SumOfTwoNumbers {
     public static void main(String[] args) {
