@@ -4,7 +4,7 @@ public class Primitives {
     public static void main(String[] args) {
         //primitive datatypes
         //byte 5 variables
-        byte age, fingers, teeth ,phValue ,waistSize;
+        byte age, fingers, teeth, phValue, waistSize;
         age = 22;
         fingers = 20;
         teeth = 32;
@@ -23,13 +23,13 @@ public class Primitives {
         marks = 998;
         armLength = 161;
         pocketMoney = 3000;
-        System.out.println("Height : "+ height);
-        System.out.println("Weight : "+ weight);
-        System.out.println("Marks : "+ marks);
-        System.out.println("ArmLength : "+ armLength);
-        System.out.println("PocketMoney : "+ pocketMoney);
+        System.out.println("Height : " + height);
+        System.out.println("Weight : " + weight);
+        System.out.println("Marks : " + marks);
+        System.out.println("ArmLength : " + armLength);
+        System.out.println("PocketMoney : " + pocketMoney);
 
-                //indentation ctrl+alt+L
+        //indentation ctrl+alt+L
 
         // int 5 variables
 
@@ -40,11 +40,11 @@ public class Primitives {
         laptopCost = 96000;
         depth = 78906;
 
-        System.out.println("Length : "+ length);
-        System.out.println("Salary : "+ salary);
-        System.out.println("iphonePrice : "+ iphonePrice);
-        System.out.println("laptopCost : "+ laptopCost);
-        System.out.println("Depth : "+ depth);
+        System.out.println("Length : " + length);
+        System.out.println("Salary : " + salary);
+        System.out.println("iphonePrice : " + iphonePrice);
+        System.out.println("laptopCost : " + laptopCost);
+        System.out.println("Depth : " + depth);
 
         // long 5 variables
         long volume, worldPopulation, aadhaarNumber, accountNumber, hallTicketNumber;
@@ -54,11 +54,11 @@ public class Primitives {
         accountNumber = 4567890321L;
         hallTicketNumber = 1234213567L;
 
-        System.out.println("Volume : "+ volume);
-        System.out.println("WorldPopulation : "+ worldPopulation);
-        System.out.println("AadhaarNumber : "+ aadhaarNumber);
-        System.out.println("AccountNumber : "+ accountNumber);
-        System.out.println("hallTicketNumber : "+ hallTicketNumber);
+        System.out.println("Volume : " + volume);
+        System.out.println("WorldPopulation : " + worldPopulation);
+        System.out.println("AadhaarNumber : " + aadhaarNumber);
+        System.out.println("AccountNumber : " + accountNumber);
+        System.out.println("hallTicketNumber : " + hallTicketNumber);
 
         //float 5 varialbes
 
@@ -69,11 +69,11 @@ public class Primitives {
         screenSize = 16.1F;
         accountBalance = 92.55F;
 
-        System.out.println("Rating : "+ rating);
-        System.out.println("Percentage : "+ percentage);
-        System.out.println("Temperature : "+ temperature);
-        System.out.println("ScreenSize : "+ screenSize);
-        System.out.println("AccountBalance : "+ accountBalance);
+        System.out.println("Rating : " + rating);
+        System.out.println("Percentage : " + percentage);
+        System.out.println("Temperature : " + temperature);
+        System.out.println("ScreenSize : " + screenSize);
+        System.out.println("AccountBalance : " + accountBalance);
 
         //double 5 variables
 
@@ -118,11 +118,6 @@ public class Primitives {
         System.out.println("Is Java Easy : " + isJavaEasy);
         System.out.println("Is Raining : " + isRaining);
         System.out.println("Is Mobile Charged : " + isMobileCharged);
-
-
-
-
-
 
 
     }

@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class TakeInput {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         // bye datatype
 
-        byte age, fingers, teeth ,phValue ,waistSize;
+        byte age, fingers, teeth, phValue, waistSize;
 
         System.out.println("enter your age : ");
-        age=sc.nextByte();
+        age = sc.nextByte();
 
         System.out.println("enter your number of fingers : ");
         fingers = sc.nextByte();
@@ -203,8 +203,7 @@ public class TakeInput {
         System.out.println("Is Payment Done : " + isPaymentDone);
         System.out.println("Is Java Easy : " + isJavaEasy);
         System.out.println("Is Raining : " + isRaining);
-        System.out.println("Is Mobile Charged : " + isMobileCharged);22
-
+        System.out.println("Is Mobile Charged : " + isMobileCharged);
 
 
         sc.close();
