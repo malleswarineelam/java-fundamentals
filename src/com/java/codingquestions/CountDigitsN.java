@@ -1,5 +1,5 @@
 package com.java.codingquestions;
-
+//9.Count digits of a number
 import java.util.Scanner;
 public class CountDigitsN {
     public static void main(String[] args) {
@@ -12,4 +12,5 @@ public class CountDigitsN {
             n=n/10;
         }
         System.out.println(count);
+        sc.close();
     }}

@@ -1,5 +1,5 @@
 package com.java.codingquestions;
-//Print all even numbers between 1 and N
+//3.Print all even numbers between 1 and N
 import java.util.Scanner;
 
 public class Even1ToN {

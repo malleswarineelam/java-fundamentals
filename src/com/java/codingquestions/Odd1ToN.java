@@ -1,5 +1,5 @@
 package com.java.codingquestions;
-//Print all odd numbers between 1 and N
+//4.Print all odd numbers between 1 and N
 import java.util.Scanner;
 
 public class Odd1ToN {

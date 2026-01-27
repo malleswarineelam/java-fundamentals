@@ -1,5 +1,6 @@
 package com.java.codingquestions;
 import java.util.Scanner;
+//6.sum of first N natural Numbers
 public class SumFirstN {
     public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
