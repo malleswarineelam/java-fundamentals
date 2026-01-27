@@ -51,3 +51,17 @@ public class MembershipPurchaseSwitch {
         sc.close();
     }
 }
+/* available stock new variable stock vunnatha vasraku it should sell if it gets over give product out of stock
+
+ */
+/* first menu vundali like 1.products setion
+output welocme to products section
+2.exit
+then now enter prdoduct price
+
+after total bill
+
+coninue shopping (y/N)
+exit button
+System.exit(0);
+ */
