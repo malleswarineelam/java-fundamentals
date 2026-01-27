@@ -25,25 +25,21 @@ public class StudentGrade {
         System.out.println("Average Score :" + averageScore);
 
         char grade;
-        if (averageScore >=91){
+        if (averageScore >= 91) {
             System.out.println("Grade is A");
-        } else if (averageScore >=81) {
+        } else if (averageScore >= 81) {
             System.out.println("Grade is B");
 
-        }
-        else if (averageScore >=71) {
+        } else if (averageScore >= 71) {
             System.out.println("Grade is C");
 
-        }
-        else if (averageScore >=61) {
+        } else if (averageScore >= 61) {
             System.out.println("Grade is D");
 
-        }
-        else if(averageScore >=51) {
+        } else if (averageScore >= 51) {
             System.out.println("Grade is E");
 
-        }
-        else {
+        } else {
             System.out.println("Student failed");
         }
 
