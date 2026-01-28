@@ -13,6 +13,7 @@ public class PurchaseMenu {
         int quantity, shippingCharges;
         float centralTax = 2.5F;
         float stateTax = 2.5F;
+        int checkQuantity;
         char memberShip;
         do {
             System.out.println("Welcome To Neelam E-Commerce App");
@@ -23,12 +24,13 @@ public class PurchaseMenu {
             switch (choice) {
 
                 case 1:
-                    System.out.println(" Available Socks Quantity: " + stockAvailable);
+                   /* System.out.println(" Available Socks Quantity: " + stockAvailable);
 
                     if (stockAvailable <= 0) {
                         System.out.println("Sorry! Product is out of stock.");
                         break;
-                    }
+                    }*/
+                    System.out.println("Welcome to Products Section");
                     System.out.println("Enter Product Price : ");            //variables declaration
                     productPrice = sc.nextFloat();
                     System.out.println("Enter Membership : ");
@@ -63,9 +65,10 @@ public class PurchaseMenu {
                     System.out.println("Enter Quantity : ");
                     quantity = sc.nextInt();
                     if (quantity > stockAvailable) {
-                        System.out.println(
-                                "Sorry for the inconvenience, You can only buy " + stockAvailable + " quantity right now.");
-                        break;
+                        System.out.println("Sorry for the inconvenience, You can only buy " + stockAvailable + " quantity right now.");
+                        System.out.println("Enter Quantity less than " + stockAvailable);
+                        quantity=sc.nextInt();
+                        //break;
                     }
                     stockAvailable = stockAvailable - quantity;
 
@@ -83,18 +86,18 @@ public class PurchaseMenu {
                 default:
                     System.out.println("Invalid choice!");
             }
+
+
             System.out.print("Do you want to continue shopping? (y/n): ");
             continueShopping = sc.next().toLowerCase().charAt(0);
 
-        } while (continueShopping == 'y');{
+        } while (continueShopping=='y');
+        {
 
-        System.out.println("Thank you for shopping with Neelam E-Commerce App, Visit us Again! ");
-        sc.close();
-            }
-
-
-
+            System.out.println("Thank you for shopping with Neelam E-Commerce App, Visit us Again! ");
+            sc.close();
+        }
 
 
-                }
+    }
 }
