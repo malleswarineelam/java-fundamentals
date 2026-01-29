@@ -1,4 +1,4 @@
-package com.java.codingquestions;
+package com.java.codingquestions.level1;
 //9.Count digits of a number
 import java.util.Scanner;
 public class CountDigitsN {

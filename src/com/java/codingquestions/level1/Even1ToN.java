@@ -1,8 +1,8 @@
-package com.java.codingquestions;
-//4.Print all odd numbers between 1 and N
+package com.java.codingquestions.level1;
+//3.Print all even numbers between 1 and N
 import java.util.Scanner;
 
-public class Odd1ToN {
+public class Even1ToN {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
@@ -10,7 +10,7 @@ public class Odd1ToN {
         int N=sc.nextInt();
         int i = 1;
         while (i<=N){
-            if (i%2!=0){
+            if (i%2==0){
                 System.out.println(i);
 
             }

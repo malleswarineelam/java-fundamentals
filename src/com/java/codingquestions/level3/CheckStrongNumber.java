@@ -1,4 +1,4 @@
-package com.java.codingquestions;
+package com.java.codingquestions.level3;
 //24.check whether a number is strong number or not
 // strong number means sum of its each digit factorials should equal to the number
 //ex:145 --- 1!+4!+5!=1+24+120=145

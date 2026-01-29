@@ -1,4 +1,4 @@
-package com.java.codingquestions;
+package com.java.codingquestions.level2;
 import java.util.Scanner;
 //15.check whether number is Armstrong or not
 public class CheckArmstrong {

@@ -1,4 +1,4 @@
-package com.java.codingquestions;
+package com.java.codingquestions.level3;
 //23.count no of factors of a number
 import java.util.Scanner;
 

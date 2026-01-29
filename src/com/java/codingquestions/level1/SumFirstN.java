@@ -1,4 +1,4 @@
-package com.java.codingquestions;
+package com.java.codingquestions.level1;
 import java.util.Scanner;
 //6.sum of first N natural Numbers
 public class SumFirstN {

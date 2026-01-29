@@ -1,4 +1,4 @@
-package com.java.codingquestions;
+package com.java.codingquestions.level3;
 
 import java.util.Scanner;
 //24.check whether a number is perfect number or not

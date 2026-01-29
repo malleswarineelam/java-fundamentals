@@ -1,4 +1,4 @@
-package com.java.codingquestions;
+package com.java.codingquestions.level1;
 //5.Multiplication table of a number
 
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.java.codingquestions;
+package com.java.codingquestions.level2;
 
 import java.util.Scanner;
 //19.Check whether a number is prime number
