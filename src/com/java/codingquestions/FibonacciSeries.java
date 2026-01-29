@@ -10,6 +10,8 @@ public class FibonacciSeries {
         int N = sc.nextInt();
         int first = 0;
         int second = 1;
+        System.out.println(first);
+        System.out.println(second);
 
         for (int i = 3; i <= N; i++) {
             int next = first + second;
