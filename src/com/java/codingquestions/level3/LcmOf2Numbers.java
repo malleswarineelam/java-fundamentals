@@ -1,7 +1,7 @@
 package com.java.codingquestions.level3;
 
 import java.util.Scanner;
-//LCM OF 2 NUMBERS
+//26.LCM OF 2 NUMBERS
 public class LcmOf2Numbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
