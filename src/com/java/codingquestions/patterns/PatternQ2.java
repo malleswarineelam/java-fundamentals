@@ -18,5 +18,6 @@ public class PatternQ2 {
             n--;
         }
         sc.close();
+
     }
 }
