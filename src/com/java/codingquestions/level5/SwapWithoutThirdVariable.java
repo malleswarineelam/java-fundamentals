@@ -1,11 +1,12 @@
 package com.java.codingquestions.level5;
 //1.🔁 Swap Two Numbers Without Using Third Variable (Java)
+
 import java.util.Scanner;
 
 public class SwapWithoutThirdVariable {
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter Number 1 :");
         int num1 = sc.nextInt();
         System.out.println("Enter Number 2 :");

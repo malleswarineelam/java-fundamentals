@@ -2,11 +2,12 @@ package com.java.codingquestions.level5;
 
 import java.util.Scanner;
 
+//2.Check if a number is power of 2
 public class PowerOfTwo {
 
     public static void main(String[] args) {
 
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number : ");
         int n = sc.nextInt();
 
